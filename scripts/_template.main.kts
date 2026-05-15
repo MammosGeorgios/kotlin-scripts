@@ -7,3 +7,6 @@
 
 println("Hello World")
 
+// We can also access arguments
+// call the script with
+println(args.toList())
