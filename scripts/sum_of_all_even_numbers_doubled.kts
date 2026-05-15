@@ -32,3 +32,18 @@ numbers.forEach {
 println("Sum is $sum")
 
 //******************
+sum = numbers
+    .filter { it % 2 == 0 }
+    .map { it * 2 }
+    .sum()
+println("Sum is $sum")
+
+//******************
+sum = numbers
+    .filter { it % 2 == 0 }
+    .map { it * 2 }
+    .reduce { a, b -> a + b }
+println("Sum is $sum")
+//******************
+
+//println("Sum is $sum")
