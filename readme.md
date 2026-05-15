@@ -20,9 +20,6 @@ button at the top of your script, in case you are really lazy with the terminal.
 
 6) execute with `./{$scriptName}.main.kts`
 
-
-
 TODO:
-- Add template to skip chmod setup
 - Try out some scripts with non-core dependencies
 
